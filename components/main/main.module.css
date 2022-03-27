@@ -13,6 +13,7 @@
 
 .wrapper {
     max-width: 770px;
+    margin: 0 22px;
 }
 
 @media screen and (max-width: 768px) {
@@ -25,5 +26,8 @@
     .title {
         font-size: 29px;
         line-height: 47px;
+    }
+    .wrapper {
+        margin: 0 10px;
     }
 }

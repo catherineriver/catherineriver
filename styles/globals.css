@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
 
 :root {
   --vw: 28vw;
   --s: 4s;
   --aside-width: 300px;
 }
-  @media screen and (max-width: 768px) {
-    :root {
-      --vw: 61vw;
-    }
+@media screen and (max-width: 768px) {
+  :root {
+    --vw: 61vw;
   }
+}
+
+@media screen and (max-width: 375px) {
+  :root {
+    --vw: 104vw;
+  }
+}
 
 .container * {
   position: relative;

@@ -1,17 +1,21 @@
 .container {
     grid-area: Header;
-    border-bottom: 2px solid #26192B;
+    box-shadow: 0 2px 0 0 #26192B;
     position: relative;
     overflow: hidden;
     white-space: nowrap;
+    display: flex;
+    align-items: center;
 }
 
 .marquee {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 3.2vw;
-    line-height: 80px;
     overflow: hidden;
+    width: 100%;
+
+    user-select: none;
 }
 
 .marquee span {
@@ -63,7 +67,12 @@
 
 @media screen and (max-width: 768px) {
     .marquee {
-        font-size: 22px;
-        line-height: 50px;
+        font-size: 7vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .marquee {
+        font-size: 12vw;
     }
 }

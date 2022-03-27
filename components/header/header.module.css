@@ -29,7 +29,7 @@
         calc(var(--vw) * 4) 0 currentColor;
 
     will-change: transform;
-    animation: marquee 4s linear infinite;
+    animation: marquee 14s linear infinite;
     animation-play-state: running;
 }
 
@@ -67,12 +67,16 @@
 
 @media screen and (max-width: 768px) {
     .marquee {
-        font-size: 7vw;
+        font-size: 22px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .marquee {
-        font-size: 12vw;
+        font-size: 2.5vh;
+    }
+
+    .marquee span {
+        animation-duration: 20s;
     }
 }

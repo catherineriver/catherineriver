@@ -23,6 +23,7 @@
 
 @media screen and (max-width: 768px) {
     .container {
-        height: calc(100vh - 70px);;
+        height: calc(100vh - 70px);
+        grid-template-rows: 0.3fr 3.4fr 0.4fr 0.4fr 0.4fr
     }
 }

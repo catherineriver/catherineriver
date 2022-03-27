@@ -6,15 +6,10 @@
   --s: 4s;
   --aside-width: 300px;
 }
-@media screen and (max-width: 768px) {
-  :root {
-    --vw: 61vw;
-  }
-}
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 780px) {
   :root {
-    --vw: 104vw;
+    --vw: 23vh;
   }
 }
 

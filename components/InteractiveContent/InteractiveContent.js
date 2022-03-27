@@ -1,7 +1,7 @@
-import styles from './interactive.module.css';
+import styles from './InteractiveContent.module.css';
 import Marquee from '../marquee/marquee';
 
-export default function Interactive () {
+export default function InteractiveContent () {
     return (
         <div className={styles.container}>
             <p>I work at <Marquee index={1}>Intexsys</Marquee> these days.As a part of the team, I solving seemingly unsolvable problems.Over the past year, we have implemented several projects that have brought great benefits to the business.I&apos; m part of a complex e-commerce project and I&apos;m proud of it, but I haven&apos;t always worked for a big international company.</p>

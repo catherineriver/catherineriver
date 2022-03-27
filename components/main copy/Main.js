@@ -2,18 +2,17 @@ import styles from './main.module.css'
 import { useContext } from 'react';
 import AppContext from '../common/context';
 import Interactive from '../InteractiveContent/InteractiveContent';
-import Section from '../section/section';
 
 export default function Main () {
     const { updatedContent, selectedTab } = useContext(AppContext)
 
     return <div className={styles.container}>
-        <div className={styles.wrapper}>
-            {updatedContent.title && <div className={styles.title}>{updatedContent.title}</div>}
+        {updatedContent.title && <div className={styles.title}>{updatedContent.title}</div>}
+            <div className={styles.content}>
             {selectedTab === 2 
                 ? <Interactive /> 
-                : <Section content={updatedContent} />
-            }
-        </div>
+                : <div className={styles.content} dangerouslySetInnerHTML={{ __html: updatedContent.text }} />
+                }
+            </div>
     </div>
 }

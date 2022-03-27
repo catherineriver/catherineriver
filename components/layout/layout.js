@@ -1,7 +1,13 @@
 import styles from './layout.module.css'
+import Head from 'next/head'
 
 export default function Layout({
   children
 }) {
-  return <div className={styles.container}> {children} </div>
+  return (<>
+      <Head>
+          <title>Ekaterina Baliasnikova</title>
+      </Head>
+      <div className={styles.container}> {children} </div>
+  </>)
 }

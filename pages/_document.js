@@ -5,7 +5,6 @@ class HeadMeta extends Document {
         return (
             <Html>
                 <Head>
-                    <title>Ekaterina Baliasnikova</title>
                     <meta name="description" content="Ekaterina Baliasnikova" />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>

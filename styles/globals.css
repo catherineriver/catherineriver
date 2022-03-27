@@ -6,7 +6,11 @@
   --s: 4s;
   --aside-width: 300px;
 }
-/* For presentation only, no need to copy the code below */
+  @media screen and (max-width: 768px) {
+    :root {
+      --vw: 61vw;
+    }
+  }
 
 .container * {
   position: relative;

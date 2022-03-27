@@ -1,0 +1,51 @@
+{
+  "content": [
+      {
+        "button": "About me",
+        "index": 1,
+        "title": "My name is Ekaterina.",
+        "text": "<p>I'm a front-end developer with 4 years of experience, and I am in love with micro animations and new technologies.</p><p>I enjoy working with media and interactive projects. Feel proud when seeing how people use the results of my work.</p><p>Currently, I’m based in Riga. I think this city is a beautiful and calm place, ideal for maintaining a balance between life and work.</p>"
+      },
+    {
+        "button": "Experience",
+        "index": 2
+    },
+    {
+        "button": "Contacts",
+        "index": 3,
+        "text":"<p>I’m interested in projects for media, projects with unusual UI/UX, and interactive projects.</p>",
+        "contacts": [
+            {
+                "title": "Email me,",
+                "link": "balyasnikovak@gmail.com"
+            },
+            {
+                "title": "I have telegram, ",
+                "link": "https:t.me/catherineriver"
+            },
+            {
+                "title": "LinkedIn too.",
+                "link": "https://www.linkedin.com/in/baliasnikovak/"
+            },
+            {
+                "title": "And Githab, of course",
+                "link": "https://github.com/catherineriver"
+            }
+        ]
+    }
+  ],
+  "experience": [
+    {
+        "place": "Intexsys",
+        "stack": ["React", "Typescript", "Less CSS", "Redux", "JavaScript", "PHP"]
+    },
+    {
+        "place": "Komitet",
+        "stack": ["Vue JS", "JavaScript", "JQuery", "HTML5", "CSS3", "SVG"]
+    },
+    {
+        "place": "Strelka",
+        "stack": ["React", "Styled Components", "JavaScript", "PHP"]
+    }
+  ]
+}

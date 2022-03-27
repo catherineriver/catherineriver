@@ -1,16 +1,46 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+:root {
+  --vw: 28vw;
+  --s: 4s;
+  --aside-width: 300px;
+}
+/* For presentation only, no need to copy the code below */
+
+.container * {
+  position: relative;
+  
+}
+
+.container *:after{
+  /* content: attr(class); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Crimson Pro', serif;
+  color: #26192B;
+  font-size: 28px;
+  line-height: 49px;
+
 }
 
-a {
-  color: inherit;
+body a {
+  color: #26192B;
   text-decoration: none;
+  box-shadow: inset 0 -3px #c46fb2;
+  transition: all .3s;
 }
 
-* {
-  box-sizing: border-box;
+body a:hover {
+  cursor: pointer;
+  color: #c46fb2;
 }

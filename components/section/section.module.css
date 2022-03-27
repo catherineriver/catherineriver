@@ -1,0 +1,13 @@
+.container {
+    display: block;
+}
+
+.link {
+    margin-right: 10px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

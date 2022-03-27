@@ -1,0 +1,62 @@
+.container {
+    grid-area: Header;
+    border-bottom: 2px solid #26192B;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 3.2vw;
+    line-height: 80px;
+    overflow: hidden;
+}
+
+.marquee span {
+    display: inline-block;
+    white-space: nowrap;
+    color: #00112C;
+    width: var(--vw);
+    text-shadow: var(--vw) 0 currentColor,
+        calc(var(--vw) * 2) 0 currentColor,
+        calc(var(--vw)* 3) 0 currentColor,
+        calc(var(--vw) * 4) 0 currentColor;
+
+    will-change: transform;
+    animation: marquee 4s linear infinite;
+    animation-play-state: running;
+}
+
+.marquee:hover span {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/*  
+ * on MacOs: System Preferences > 
+ *           Accessibility > 
+ *           Display > Reduce motion
+ */
+
+@media (prefers-reduced-motion: reduce) {
+    .marquee span {
+        animation: none;
+        text-shadow: none;
+        width: auto;
+        display: block;
+        line-height: 1.5;
+        text-align: center;
+        white-space: normal;
+    }
+}

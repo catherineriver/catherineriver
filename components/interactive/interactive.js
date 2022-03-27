@@ -1,4 +1,4 @@
-import styles from './interactive.module.css'
+import styles from './interactive.module.css';
 import Marquee from '../marquee/marquee';
 
 export default function Interactive () {

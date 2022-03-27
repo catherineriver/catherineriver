@@ -1,5 +1,4 @@
-import styles from './section.module.css'
-import Marquee from '../marquee/marquee';
+import styles from './section.module.css';
 
 export default function Section ({content}) {
     return (

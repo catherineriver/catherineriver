@@ -5,17 +5,17 @@ import Menu from '../components/tabs/Tabs'
 import Header from '../components/header/header'
 import styles from '../styles/Home.module.css'
 import Aside from '../components/aside/aside'
-import {isMobile} from 'react-device-detect'
+import { isMobile } from 'react-device-detect'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Layout>
         <Grid>
-          {!isMobile && <Header />}
+          {/* {!isMobile && <Header />} */}
           <Main />
           <Menu />
-          {!isMobile && <Aside />}
+          {/* {!isMobile && <Aside />} */}
         </Grid>
       </Layout>
     </div>

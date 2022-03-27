@@ -24,12 +24,12 @@
 @media screen and (max-width: 768px) {
     .container {
         height: calc(100vh - 100px);
-        grid-template-rows: 4.5fr 0.5fr .5fr .5fr;
+        grid-template-rows: 4fr .5fr .5fr .5fr;
         grid-template-areas:
-        "Main Aside"
-        "Menu Aside"
-        "Menu Aside"
-        "Menu Aside";
+        "Main"
+        "Menu"
+        "Menu"
+        "Menu";
 
     }
 }

@@ -60,3 +60,10 @@
         white-space: normal;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .marquee {
+        font-size: 22px;
+        line-height: 50px;
+    }
+}

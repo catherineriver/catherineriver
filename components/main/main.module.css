@@ -14,3 +14,16 @@
 .wrapper {
     max-width: 770px;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        font-size: 23px;
+        line-height: 39px;
+        margin: 0 0 0 10px;
+    }
+
+    .title {
+        font-size: 29px;
+        line-height: 47px;
+    }
+}

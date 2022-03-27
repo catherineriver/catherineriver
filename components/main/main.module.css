@@ -18,14 +18,14 @@
 
 @media screen and (max-width: 768px) {
     .container {
-        font-size: 28px;
-        line-height: 44px;
+        font-size: 17pt;
+        line-height: 22pt;
         margin: 0 0 0 10px;
     }
 
     .title {
-        font-size: 29px;
-        line-height: 47px;
+        font-size: 22pt;
+        line-height: 28pt;
     }
     .wrapper {
         margin: 0 10px;

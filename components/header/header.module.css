@@ -66,17 +66,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .marquee {
-        font-size: 22px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .marquee {
-        font-size: 2.5vh;
-    }
-
-    .marquee span {
-        animation-duration: 20s;
+    .container {
+        display: none;
     }
 }

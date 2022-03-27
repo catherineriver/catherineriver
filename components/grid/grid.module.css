@@ -23,7 +23,13 @@
 
 @media screen and (max-width: 768px) {
     .container {
-        height: calc(100vh - 70px);
-        grid-template-rows: 0.3fr 3.4fr 0.4fr 0.4fr 0.4fr
+        height: calc(100vh - 100px);
+        grid-template-rows: 4.5fr 0.5fr .5fr .5fr;
+        grid-template-areas:
+        "Main Aside"
+        "Menu Aside"
+        "Menu Aside"
+        "Menu Aside";
+
     }
 }

@@ -13,16 +13,28 @@ export async function getStaticProps () {
       data
     }
   }
-}
+};
 
-export default function Home({ data }) {
+export async function getInitialProps({ context }) {
+  let isMobileView = (context.req
+    ? context.req.headers['user-agent']
+    : navigator.userAgent).match(
+      /Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i
+    )
+
+  return {
+    isMobileView: Boolean(isMobileView)
+  }
+};
+
+export default function Home ({ data, isMobileView }) {
   return (
     <Layout>
       <Grid>
-        <Header />
+        {!isMobileView && <Header />}
         <Main />
         <Tabs data={data.content}/>
-        <Aside />
+        {!isMobileView && <Aside />}
       </Grid>
     </Layout>
   )

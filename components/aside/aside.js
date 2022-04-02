@@ -1,7 +1,7 @@
 import styles from './aside.module.css'
 import { useContext } from 'react';
-import AppContext from '../common/context';
-import data from '../common/data.json'
+import AppContext from '../../utils/context';
+import data from '../../utils/data.json'
 import Stack from '../stack/stack';
 import clsx from 'clsx';
 

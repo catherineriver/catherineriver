@@ -1,7 +1,7 @@
 import '../styles/globals.css'
-import AppContext from '../components/common/context';
+import AppContext from '../utils/context';
 import { useState } from 'react';
-import data from '../components/common/data.json'
+import data from '../utils/data.json'
 
 function MyApp({ Component, pageProps }) {
   const [isActive, setIsActive] = useState(false);

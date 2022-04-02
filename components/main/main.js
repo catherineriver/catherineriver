@@ -1,6 +1,6 @@
 import styles from './main.module.css'
 import { useContext } from 'react';
-import AppContext from '../common/context';
+import AppContext from '../../utils/context';
 import Interactive from '../InteractiveContent/InteractiveContent';
 import Section from '../section/section';
 

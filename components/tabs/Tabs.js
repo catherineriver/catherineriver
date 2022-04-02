@@ -1,11 +1,9 @@
 import styles from './tabs.module.css'
 import { useContext, useState } from 'react';
-import AppContext from '../common/context';
-import data from '../common/data.json'
+import AppContext from '../../utils/context';
 import clsx from 'clsx';
 
-
-export default function Tabs () {
+export default function Tabs ({ data }) {
     const { 
         isActive, setIsActive, selectedTab, setSelectedTab, setUpdatedContent
     } = useContext(AppContext)
@@ -18,7 +16,7 @@ export default function Tabs () {
         setSelectedTab(index);
     }
     return <div className={styles.container}>
-        {data.content.map((item) => {
+        {data.map((item) => {
             const index = item.index; 
             return (
                 <div 

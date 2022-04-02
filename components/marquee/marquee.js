@@ -1,6 +1,6 @@
 import styles from './marquee.module.css'
 import React, { useContext } from 'react';
-import AppContext from '../common/context';
+import AppContext from '../../utils/context';
 import { isDesktop } from 'react-device-detect';
 
 export default function Marquee ({ children, index }) {

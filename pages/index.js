@@ -1,19 +1,28 @@
 import Layout from '../components/layout/layout'
 import Grid from '../components/grid/grid'
 import Main from '../components/main/main'
-import Menu from '../components/tabs/Tabs'
+import Tabs from '../components/tabs/Tabs'
 import Header from '../components/header/header'
 import Aside from '../components/aside/aside'
-import { isDesktop } from 'react-device-detect';
+import { getData } from '../utils/getData'
 
-export default function Home() {
+export async function getStaticProps () {
+  const data = getData()
+  return {
+    props: {
+      data
+    }
+  }
+}
+
+export default function Home({ data }) {
   return (
     <Layout>
       <Grid>
-        {isDesktop && <Header />}
+        <Header />
         <Main />
-        <Menu />
-        {isDesktop && <Aside />}
+        <Tabs data={data.content}/>
+        <Aside />
       </Grid>
     </Layout>
   )

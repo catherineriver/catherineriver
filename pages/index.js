@@ -4,15 +4,16 @@ import Main from '../components/main/main'
 import Menu from '../components/tabs/Tabs'
 import Header from '../components/header/header'
 import Aside from '../components/aside/aside'
+import { isDesktop } from 'react-device-detect';
 
 export default function Home() {
   return (
     <Layout>
       <Grid>
-        <Header />
+        {isDesktop && <Header />}
         <Main />
         <Menu />
-        <Aside />
+        {isDesktop && <Aside />}
       </Grid>
     </Layout>
   )

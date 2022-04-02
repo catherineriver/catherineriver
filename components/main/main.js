@@ -9,7 +9,7 @@ export default function Main () {
 
     return <div className={styles.container}>
         <div className={styles.wrapper}>
-            {updatedContent.title && <div className={styles.title}>{updatedContent.title}</div>}
+            {updatedContent.title && <h1>{updatedContent.title}</h1>}
             {selectedTab === 2 
                 ? <Interactive /> 
                 : <Section content={updatedContent} />

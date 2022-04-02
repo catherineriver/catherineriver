@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 768px) {
     .container {
-        height: calc(100vh - 100px);
+        height: calc(100vh - calc(100vh - 100%));
         grid-template-rows: 4fr .5fr .5fr .5fr;
         grid-template-areas:
         "Main"

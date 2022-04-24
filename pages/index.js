@@ -1,3 +1,4 @@
+import React from 'react'
 import Layout from '../components/layout/layout'
 import Grid from '../components/grid/grid'
 import Main from '../components/main/main'
@@ -12,7 +13,7 @@ export async function getStaticProps () {
       data
     }
   }
-};
+}
 
 export async function getInitialProps({ context }) {
   let isMobileView = (context.req
@@ -24,7 +25,7 @@ export async function getInitialProps({ context }) {
   return {
     isMobileView: Boolean(isMobileView)
   }
-};
+}
 
 export default function Home ({ data, isMobileView }) {
   return (
@@ -33,7 +34,6 @@ export default function Home ({ data, isMobileView }) {
         {!isMobileView && <Header />}
         <Main />
         <Tabs data={data.content}/>
-        {/* {!isMobileView && <Aside />} */}
       </Grid>
     </Layout>
   )

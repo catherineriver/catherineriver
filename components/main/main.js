@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from './main.module.css'
 import { useContext } from 'react';
 import AppContext from '../../utils/context';

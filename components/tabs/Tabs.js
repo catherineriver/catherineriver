@@ -1,5 +1,6 @@
+import React from 'react'
 import styles from './tabs.module.css'
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 import AppContext from '../../utils/context';
 import clsx from 'clsx';
 

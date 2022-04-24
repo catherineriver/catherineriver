@@ -14,11 +14,11 @@ class HeadMeta extends Document {
                         crossOrigin="anonymous"
                     />
                     <link
-                        href="https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap"
+                        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&display=swap"
                         rel="stylesheet"
                     />
                     <link
-                        href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+                        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&&display=swap"
                         rel="stylesheet"
                     />
                     

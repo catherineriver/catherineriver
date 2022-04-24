@@ -1,7 +1,6 @@
 :root {
   --vw: 28vw;
   --s: 4s;
-  --aside-width: 300px;
 }
 
 @media screen and (max-width: 780px) {
@@ -27,19 +26,6 @@ body a {
 body a:hover {
   cursor: pointer;
   color: #c46fb2;
-}
-
-body h1 {
-  font-size: 3.125vw;
-  font-weight: 700;
-  line-height: 4.931vw;
-}
-
-@media screen and (max-width: 768px) {
-  body h1 {
-    font-size: 30px;
-    line-height: 38px;
-  }
 }
 
 @media screen and (min-width: 1300px) {

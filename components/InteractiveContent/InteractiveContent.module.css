@@ -2,3 +2,7 @@
     display: block;
     user-select: none;
 }
+
+.block {
+    margin: 1em 0;
+}

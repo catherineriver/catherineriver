@@ -76,6 +76,18 @@
     letter-spacing: 5px;
 }
 
+@media screen and (min-width: 1200px) {
+    .menuItem span {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .menuItem::before{
+        width: 44px;
+        height: 44px;
+    }
+}
+
 @media screen and (max-width: 768px) { 
     .menuItem span {
         font-size: 22px;

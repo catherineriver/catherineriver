@@ -12,8 +12,8 @@
 body {
   font-family: 'Crimson Pro', serif;
   color: #26192B;
-  font-size: 28px;
-  line-height: 49px;
+  font-size: 36px;
+  line-height: 50px;
 }
 
 body a {
@@ -28,7 +28,7 @@ body a:hover {
   color: #c46fb2;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (max-width: 1200px) {
   body {
     font-size: 28px;
     line-height: 38px;

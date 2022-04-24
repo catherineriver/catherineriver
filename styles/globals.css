@@ -1,11 +1,3 @@
-@font-face {
-  font-family: 'Crimson Pro';
-  font-style: normal;
-  font-weight: 700;
-  font-display: optional;
-  src: url(https://fonts.gstatic.com/s/crimsonpro/v21/q5uDsoa5M_tv7IihmnkabARboYF6CsKj.woff2) format('woff2');
-}
-
 :root {
   --vw: 28vw;
   --s: 4s;
@@ -19,7 +11,7 @@
 }
 
 body {
-  font-family: 'Crimson Pro', serif;
+  font-family: 'Crimson Pro';
   color: #26192B;
   font-size: 28px;
   line-height: 49px;

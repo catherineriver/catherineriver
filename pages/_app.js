@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   const [isActive, setIsActive] = useState(false);
   const [selectedTab, setSelectedTab] = useState(1);
   const [selectedLink, setSelectedLink] = useState(1);
-  const [isOpenAside, setIsOpenAside] = useState(false);
+  const [show, setShow] = useState(false);
   const [updatedContent, setUpdatedContent] = useState(data.content[0]);
   return (
     <AppContext.Provider
@@ -20,8 +20,8 @@ function MyApp({ Component, pageProps }) {
         selectedTab,
         selectedLink,
         setSelectedLink,
-        isOpenAside,
-        setIsOpenAside
+        show,
+        setShow
       }}
     >
       <Component {...pageProps} />

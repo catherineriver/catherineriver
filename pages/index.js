@@ -3,7 +3,6 @@ import Grid from '../components/grid/grid'
 import Main from '../components/main/main'
 import Tabs from '../components/tabs/Tabs'
 import Header from '../components/header/header'
-import Aside from '../components/aside/aside'
 import { getData } from '../utils/getData'
 
 export async function getStaticProps () {
@@ -34,7 +33,7 @@ export default function Home ({ data, isMobileView }) {
         {!isMobileView && <Header />}
         <Main />
         <Tabs data={data.content}/>
-        {!isMobileView && <Aside />}
+        {/* {!isMobileView && <Aside />} */}
       </Grid>
     </Layout>
   )

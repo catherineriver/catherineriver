@@ -1,0 +1,47 @@
+.container {
+    display: inline-block;
+    background-color: #E1C2EB;
+    line-height: normal;
+    position: relative;
+
+}
+
+.container:hover {
+    cursor: pointer;
+}
+
+.tooltip {
+    cursor: auto;
+    display: block;
+    position: absolute;
+    right: -110px;
+    top: 29px;
+    background: #E1C2EB;
+    padding: 5px;
+    border: 2px solid #26192B;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px #18191f;
+
+    font-size: 2vw;
+    line-height: 2.2vw;
+    max-width: 100px;
+
+    z-index: 10;
+
+    animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.isClosed {
+    display: none;
+}
+
+@keyframes shadow-pop-tr {
+  0% {
+    box-shadow: 0 0 #18191f, 0 0 #18191f, 0 0 #18191f, 0 0 #18191f;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: 1px -1px #18191f, 2px -2px #18191f, 3px -3px #18191f;
+    transform: translateX(-6px) translateY(6px);
+  }
+}

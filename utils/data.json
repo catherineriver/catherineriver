@@ -37,15 +37,15 @@
   "experience": [
     {
         "place": "Intexsys",
-        "stack": ["React", "Typescript", "Less CSS", "Redux", "JavaScript", "PHP"]
+        "stack": "React, Typescript, Less CSS, Redux, JavaScript, PHP"
     },
     {
         "place": "Komitet",
-        "stack": ["Vue JS", "JavaScript", "JQuery", "HTML5", "CSS3", "SVG"]
+        "stack": "Vue JS, JavaScript, JQuery, HTML5, CSS3, SVG"
     },
     {
         "place": "Strelka",
-        "stack": ["React", "Styled Components", "JavaScript", "PHP"]
+        "stack": "React,Styled Components, JavaScript, PHP"
     }
   ]
 }

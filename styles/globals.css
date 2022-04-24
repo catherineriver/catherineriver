@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: optional;
+  src: url(https://fonts.gstatic.com/s/crimsonpro/v21/q5uDsoa5M_tv7IihmnkabARboYF6CsKj.woff2) format('woff2');
+}
 
 :root {
   --vw: 28vw;

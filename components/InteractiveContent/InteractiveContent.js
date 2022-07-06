@@ -28,8 +28,10 @@ export default function InteractiveContent() {
         And many of them exist only on my GitHub now.
       </div>
       <div className={styles.block}>
-        I started my frontend developer career at
-        <TooltipHandler index={2}>«Strelka Institute for Media, Architecture and Design»</TooltipHandler>.
+        <TooltipHandler index={2}>«Strelka Institute for Media, Architecture and Design»</TooltipHandler> was the place where I started my frontend developer career.
+        It was great for novice. As part of team I develop from scratch <a href="https://strelkamag.com/" rel="noreferrer" target="_blank">Strelka Mag</a> magazine, CMS and bunch of internal tools.
+        I got experience with unusual visual solutions and catched a love of brutalism and minimalism in design.
+        My favorite project from this times is <a href="https://sovietarch.strelka.com" rel="noreferrer" target="_blank">Soviet Modernism Guide</a>.
       </div>
     </div>
   );

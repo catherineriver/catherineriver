@@ -13,7 +13,7 @@
     {
         "button": "Contacts",
         "index": 3,
-        "text":"<p>I’m interested in projects for media, projects with unusual UI/UX, and interactive projects.</p>",
+        "text":"<p>I’m interested in projects for media, projects with nice and clean UI/UX, and interactive projects.</p>",
         "contacts": [
             {
                 "title": "Email me,",
@@ -37,15 +37,15 @@
   "experience": [
     {
         "place": "Intexsys",
-        "stack": "React, Typescript, Less CSS, Redux, JavaScript, PHP"
+        "stack": "React, Typescript, Less, Redux, JavaScript, PHP"
     },
     {
         "place": "Komitet",
-        "stack": "Vue JS, JavaScript, JQuery, HTML5, CSS3, SVG"
+        "stack": "Vue JS, JavaScript, JQuery, HTML5, CSS3, SVG, Canvas"
     },
     {
         "place": "Strelka",
-        "stack": "React,Styled Components, JavaScript, PHP"
+        "stack": "React, Styled Components, JavaScript, PHP"
     }
   ]
 }

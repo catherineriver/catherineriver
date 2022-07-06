@@ -45,3 +45,16 @@
     transform: translateX(0) translateY(6px);
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .tooltip {
+    max-width: 190px;
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    pointer-events: none;
+  }
+}

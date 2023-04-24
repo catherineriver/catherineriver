@@ -5,8 +5,14 @@ import TooltipHandler from '../tooltipHandler/tooltipHandler';
 export default function InteractiveContent() {
   return (
     <div className={styles.container}>
+        <div className={styles.block}>
+            I am currently working as a freelance developer, specializing in Vue/React stack.
+        </div>
+        <div className={styles.block}>
+            Previously, I was a part of an agile team at <TooltipHandler index={0}>«Intexsys»</TooltipHandler>, where I tackled seemingly unsolvable problems and constantly improved my skills.
+        </div>
       <div className={styles.block}>
-        I&apos;m currently working in&nbsp;<TooltipHandler index={0}>«Intexsys»</TooltipHandler>. As a part of an agile team, I solving seemingly unsolvable problems and constantly improve my skills.
+          Previously, I was a part of an agile team at <TooltipHandler index={0}>«Intexsys»</TooltipHandler>, where I tackled seemingly unsolvable problems and constantly improved my skills.
       </div>
       <div className={styles.block}>
         This place is my first job in an international company. Before that, I worked on media. The most challenging company was&nbsp;
@@ -19,13 +25,13 @@ export default function InteractiveContent() {
         <a href="https://tjournal.ru/" rel="noreferrer" target="_blank">TJ</a>.
       </div>
       <div className={styles.block}>
+        Unfortunately, due to the war, the media companies I worked for were forced to shut down.
         I&apos;m proud of every project which I have done. But mine most loved -
         <a href="https://vc.ru/special/uralsib-tamagochi" rel="noreferrer" target="_blank">Tamagotchi of Businessman</a>, 
-        for Uralsib Bank. This project caused a battle between users. Day and night they clicked on the love/hate buttons and leaded virtual Businessmen to success.
+        for Uralsib Bank. This project sparked a friendly competition among users, who clicked the love/hate buttons day and night, guiding their virtual businessmen to success.
       </div>
       <div className={styles.block}>
-        Unfortunately, special projects in this media don&apos;t live long. 
-        And many of them exist only on my GitHub now.
+        Despite the closures, many of my creations live on through my GitHub.
       </div>
       <div className={styles.block}>
         <TooltipHandler index={2}>«Strelka Institute for Media, Architecture and Design»</TooltipHandler> was the place where I started my frontend developer career.
@@ -33,6 +39,10 @@ export default function InteractiveContent() {
         I got experience with unusual visual solutions and catched a love of brutalism and minimalism in design.
         My favorite project from this times is <a href="https://sovietarch.strelka.com" rel="noreferrer" target="_blank">Soviet Modernism Guide</a>.
       </div>
+        <div className={styles.block}>
+            Now, as a freelancer, I continue to expand my expertise and take on exciting new projects, making use of my diverse skill set with Vue, React, Nuxt, and Next.js.
+            My past experiences in media and working with diverse teams have shaped my ability to adapt to new challenges, and I look forward to the opportunities that freelance work has to offer.
+        </div>
     </div>
   );
 }

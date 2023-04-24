@@ -13,7 +13,7 @@
     {
         "button": "Contacts",
         "index": 3,
-        "text":"<p>I’m interested in projects for media, projects with nice and clean UI/UX, and interactive projects.</p>",
+        "text":"<p>I'm drawn to projects related to media, those featuring appealing and user-friendly UI/UX designs, and interactive experiences that engage users.</p><p>Feel free to get in touch!</p>",
         "contacts": [
             {
                 "title": "Email me,",

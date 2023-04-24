@@ -12,9 +12,6 @@ export default function InteractiveContent() {
             Previously, I was a part of an agile team at <TooltipHandler index={0}>«Intexsys»</TooltipHandler>, where I tackled seemingly unsolvable problems and constantly improved my skills.
         </div>
       <div className={styles.block}>
-          Previously, I was a part of an agile team at <TooltipHandler index={0}>«Intexsys»</TooltipHandler>, where I tackled seemingly unsolvable problems and constantly improved my skills.
-      </div>
-      <div className={styles.block}>
         This place is my first job in an international company. Before that, I worked on media. The most challenging company was&nbsp;
         <TooltipHandler index={1}>«Komitet»</TooltipHandler>.
       </div>
@@ -24,8 +21,10 @@ export default function InteractiveContent() {
         <a href="https://vc.ru/" rel="noreferrer" target="_blank">VC</a>, and &nbsp;
         <a href="https://tjournal.ru/" rel="noreferrer" target="_blank">TJ</a>.
       </div>
+        <div className={styles.block}>
+            Unfortunately, due to the war, the media companies I worked for were forced to shut down.
+        </div>
       <div className={styles.block}>
-        Unfortunately, due to the war, the media companies I worked for were forced to shut down.
         I&apos;m proud of every project which I have done. But mine most loved -
         <a href="https://vc.ru/special/uralsib-tamagochi" rel="noreferrer" target="_blank">Tamagotchi of Businessman</a>, 
         for Uralsib Bank. This project sparked a friendly competition among users, who clicked the love/hate buttons day and night, guiding their virtual businessmen to success.

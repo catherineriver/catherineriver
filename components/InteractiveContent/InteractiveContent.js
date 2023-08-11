@@ -6,7 +6,8 @@ export default function InteractiveContent() {
   return (
     <div className={styles.container}>
         <div className={styles.block}>
-            I am currently working as a freelance developer, specializing in Vue/React stack.
+          Currently, I am working at <a href="https://doxa.team" rel="noreferrer" target="_blank">DOXA</a>, where I continue to apply and expand my skills in the Vue stack. 
+          Alongside my role at DOXA, I also take on freelance projects, allowing me to diversify my experience and work on a variety of exciting challenges.
         </div>
         <div className={styles.block}>
             Previously, I was a part of an agile team at <TooltipHandler index={0}>«Intexsys»</TooltipHandler>, where I tackled seemingly unsolvable problems and constantly improved my skills.

@@ -4,7 +4,7 @@
         "button": "About me",
         "index": 1,
         "title": "My name is Ekaterina.",
-        "text": "<p>I am a passionate front-end developer with over 4 years of experience under my belt. My love for micro animations and cutting-edge technologies fuels my enthusiasm for creating immersive and engaging digital experiences.</p><p>Throughout my career, I've taken great pleasure in working on media and interactive projects. Witnessing people actively using and enjoying the fruits of my labor brings me immense pride and satisfaction.</p><p>Right now, I live in Riga. I think this city is beautiful and peaceful, which helps me find a good balance between my work and my personal life.</p><p>Please take a look around my website to learn more about what I do. If you want to work together on a project, feel free to get in touch!</p>"
+        "text": "<p>Hey there! I'm a front-end developer who's been diving into code for over 4 years. I'm kinda obsessed with micro animations and the latest tech stuff. It's all about making the web a cooler place, right?</p><p>I've had a blast working on media and interactive projects. There's nothing like seeing someone genuinely enjoy something you've built. It's like watching someone enjoy a meal you've cooked, but in the digital world!</p><p>I'm currently live in Riga. Such a gorgeous and laid-back city! It's the perfect backdrop for balancing my coding adventures with some quality downtime.</p><p>Feel free to poke around my website and see what I'm all about. And hey, if you're thinking we might make a good team for a project, drop me a line!</p>"
       },
     {
         "button": "Experience",
@@ -17,7 +17,7 @@
         "contacts": [
             {
                 "title": "Email me,",
-                "link": "balyasnikovak@gmail.com"
+                "link": "ekaterina@harnault.dev"
             },
             {
                 "title": "I have telegram, ",

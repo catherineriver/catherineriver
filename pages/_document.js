@@ -6,7 +6,7 @@ class HeadMeta extends Document {
         return (
             <Html>
                 <Head>
-                    <meta name="description" content="Ekaterina Baliasnikova" />
+                    <meta name="description" content="Ekaterina Baliasnikova | Front-end developer" />
                     <link rel="icon" href="/favicon.ico" />
                     <link
                         rel="preconnect"
@@ -21,7 +21,10 @@ class HeadMeta extends Document {
                         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&&display=swap"
                         rel="stylesheet"
                     />
-                    
+                    <meta property="og:title" content="Ekaterina Baliasnikova | Front-end developer" />
+                    <meta property="og:description" content="Let's work together!" />
+                    <meta property="og:image" content="/og-image.png" />
+                    <meta property="og:type" content="website" />
                 </Head>
                 <body>
                     <Main />

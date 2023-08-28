@@ -17,11 +17,11 @@
         "contacts": [
             {
                 "title": "Email me,",
-                "link": "ekaterina@harnault.dev"
+                "link": "mailto:ekaterina.harnault@dev"
             },
             {
                 "title": "I have telegram, ",
-                "link": "https:t.me/catherineriver"
+                "link": "https://t.me/harnault"
             },
             {
                 "title": "LinkedIn too.",
@@ -41,7 +41,7 @@
     },
     {
         "place": "Komitet",
-        "stack": "Vue JS, JavaScript, JQuery, HTML5, CSS3, SVG, Canvas"
+        "stack": "Vue.js, JavaScript, JQuery, HTML5, CSS3, SVG, Canvas"
     },
     {
         "place": "Strelka",

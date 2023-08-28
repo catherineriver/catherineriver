@@ -1,7 +1,7 @@
 .container {
     grid-area: Main;
     overflow-y: scroll;
-    height: 63vh;
+    height: 58vh;
 }
 
 .wrapper {

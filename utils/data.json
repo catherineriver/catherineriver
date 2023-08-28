@@ -3,8 +3,8 @@
       {
         "button": "About me",
         "index": 1,
-        "title": "My name is Ekaterina.",
-        "text": "<p>Hey there! I'm a front-end developer who's been diving into code for over 4 years. I'm kinda obsessed with micro animations and the latest tech stuff. It's all about making the web a cooler place, right?</p><p>I've had a blast working on media and interactive projects. There's nothing like seeing someone genuinely enjoy something you've built. It's like watching someone enjoy a meal you've cooked, but in the digital world!</p><p>I'm currently live in Riga. Such a gorgeous and laid-back city! It's the perfect backdrop for balancing my coding adventures with some quality downtime.</p><p>Feel free to poke around my website and see what I'm all about. And hey, if you're thinking we might make a good team for a project, drop me a line!</p>"
+        "title": "Hi, I'm Ekaterina.",
+        "text": "<p>I'm a front-end developer who's been diving into code for over 4 years. I'm kinda obsessed with micro animations and the latest tech stuff. It's all about making the web a cooler place, right?</p><p>I've had a blast working on media and interactive projects. There's nothing more rewarding than seeing someone enjoy something you've built in the digital world!</p><p>Feel free to poke around and see what I'm all about. And hey, if you're thinking we might make a good team for a project, drop me a line!</p>"
       },
     {
         "button": "Experience",
@@ -13,7 +13,7 @@
     {
         "button": "Contacts",
         "index": 3,
-        "text":"<p>I'm drawn to projects related to media, those featuring appealing and user-friendly UI/UX designs, and interactive experiences that engage users.</p><p>Feel free to get in touch!</p>",
+        "text":"<p>If you're in need of an expert in HTML5, CSS, JS, and someone proficient with the React/Vue/Typescript stack, then you're in the right place.</p>\n\n<p>I not only bring technical expertise but also a keen sense of aesthetics and a deep understanding of UI patterns. I have a strong passion for media-related projects, captivating UI/UX designs, and creating interactive experiences that truly resonate with users.</p>\n\n<p>Feel free to get in touch!</p>\n",
         "contacts": [
             {
                 "title": "Email me,",

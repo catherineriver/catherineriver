@@ -1,8 +1,7 @@
 .container {
     grid-area: Main;
     overflow-y: scroll;
-    height: 60vh;
-
+    height: 63vh;
 }
 
 .wrapper {
@@ -10,7 +9,7 @@
 }
 
 .title {
-
+  margin: 15px 0;
   font-size: 3.125vw;
   font-weight: 700;
   line-height: 4.931vw;
@@ -35,6 +34,7 @@
     .container {
         font-size: 22px;
         line-height: 29px;
+        height: 72vh;
     }
     .wrapper {
         margin: 0 10px;

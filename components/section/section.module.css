@@ -2,8 +2,8 @@
     display: block;
 }
 
-.text {
-    
+.text p {
+    margin: 20px 0;
 }
 
 .link {

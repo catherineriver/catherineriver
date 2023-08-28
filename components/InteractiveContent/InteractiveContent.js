@@ -6,25 +6,31 @@ export default function InteractiveContent() {
   return (
     <div className={styles.container}>
         <div className={styles.block}>
-          Currently, I am working at <a href="https://doxa.team" rel="noreferrer" target="_blank">DOXA</a>, where I continue to apply and expand my skills in the Vue stack. 
-          Alongside my role at DOXA, I also take on freelance projects, allowing me to diversify my experience and work on a variety of exciting challenges.
+            Right now, I&rsquo;m working at&nbsp;<a href="https://www.doxa.team/" rel="noreferrer" target="_blank">DOXA</a>, diving deep into the Vue stack. It&rsquo;s also the place where I get better at design and UI.
         </div>
         <div className={styles.block}>
-            Previously, I was a part of an agile team at <TooltipHandler index={0}>«Intexsys»</TooltipHandler>, where I tackled seemingly unsolvable problems and constantly improved my skills.
+            One oft&nbsp;myt&nbsp;proudest moments with this teamt&nbsp;is <a href="https://noncharity.doxa.team/" rel="noreferrer" target="_blank">NonCharity</a>,
+            which won the <a href="https://redkollegia.org/archives/text/neblagotvori-telnost-kak-sistema-prezidentskih-grantov-vynuzhdaet-rossijskoe-obshhestvo-obsluzhivat-vojnu" rel="noreferrer" target="_blank">Redkollegiya award</a>.
+            It&rsquo;s an independent award established to support free professional journalism in Russia.
         </div>
-      <div className={styles.block}>
-        This place is my first job in an international company. Before that, I worked on media. The most challenging company was&nbsp;
-        <TooltipHandler index={1}>«Komitet»</TooltipHandler>.
-      </div>
-      <div className={styles.block}>
-        My responsibilities were to develop and maintain marketing integrations for&nbsp;
-        <a href="https://dtf.ru" rel="noreferrer" target="_blank">DTF</a>,&nbsp;
-        <a href="https://vc.ru/" rel="noreferrer" target="_blank">VC</a>, and &nbsp;
-        <a href="https://tjournal.ru/" rel="noreferrer" target="_blank">TJ</a>.
-      </div>
         <div className={styles.block}>
-            Unfortunately, due to the war, the media companies I worked for were forced to shut down.
+            Additionally, I clinched a win at the <a href="https://internetborders.net/" rel="noreferrer" target="_blank">«Internet Without Borders» hackathon</a> in Tool development panel challenge from Ceno.
+            For the challenge, I was tasked with redesigning and developing functionalities for a page for Ceno Browser site.
+            What makes this win even more special is that it was my first-ever hackathon and my inaugural trip to Amsterdam.
         </div>
+        <div className={styles.block}>
+            Besides my&nbsp;day job, I&nbsp;love taking on&nbsp;freelance gigs, which gives me&nbsp;a&nbsp;chance to&nbsp;mix things up&nbsp;and face new challenges.
+            Freelancing lets me play around with modern technologies and learn new ones.
+        </div>
+        <div className={styles.block}>
+            Before joining DOXA, I was with <TooltipHandler index={0}>«Intexsys»</TooltipHandler>, an international company. Being part of their dynamic team, we tackled some tough problems, and I learned a ton.
+        </div>
+      <div className={styles.block}>
+        This place is my first job in an international company. Before that, I worked on media.
+        My most memorable time was at <TooltipHandler index={1}>«Komitet»</TooltipHandler>, where I was all about creating cool marketing integrations
+        for platforms like <a href="https://dtf.ru" rel="noreferrer" target="_blank">DTF</a>, <a href="https://vc.ru/" rel="noreferrer" target="_blank">VC</a>, and <a href="https://tjournal.ru/" rel="noreferrer" target="_blank">TJ</a>.
+
+      </div>
       <div className={styles.block}>
         I&apos;m proud of every project which I have done. But mine most loved -
         <a href="https://vc.ru/special/uralsib-tamagochi" rel="noreferrer" target="_blank">Tamagotchi of Businessman</a>, 
@@ -40,8 +46,8 @@ export default function InteractiveContent() {
         My favorite project from this times is <a href="https://sovietarch.strelka.com" rel="noreferrer" target="_blank">Soviet Modernism Guide</a>.
       </div>
         <div className={styles.block}>
-            Now, as a freelancer, I continue to expand my expertise and take on exciting new projects, making use of my diverse skill set with Vue, React, Nuxt, and Next.js.
-            My past experiences in media and working with diverse teams have shaped my ability to adapt to new challenges, and I look forward to the opportunities that freelance work has to offer.
+            After all these experiences, I&rsquo;m still eager to learn and grow.
+            Today I&rsquo;m particularly interested in advancing my skills in design and UI/UX and excited about what&rsquo;s next.
         </div>
     </div>
   );

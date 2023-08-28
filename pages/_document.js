@@ -10,7 +10,8 @@ class HeadMeta extends Document {
                     <meta name="msapplication-TileColor" content="#00aba9" />
                     <meta name="theme-color" content="#ffffff" />
                     <meta property="og:title" content="Ekaterina Baliasnikova | Front-end developer" />
-                    <meta property="og:description" content="Let's work together!" />
+                    <meta property="og:url" content="https://harnault.dev" />
+                    <meta property="og:description" content="With love to UI and unicorns" />
                     <meta property="og:image" content="https://harnault.dev/og-image.jpg" />
                     <meta property="og:image:type" content="image/jpg" />
                     <meta name="twitter:image" content="https://harnault.dev/og-image.jpg" />
@@ -21,7 +22,8 @@ class HeadMeta extends Document {
                     <link rel="icon" type="image/png" href="/favicon.png" />
                     <link rel="manifest" href="/site.webmanifest" />
                     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#a1a2cc" />
-                        <link
+                    <link rel="canonical" href="https://harnault.dev"/>
+                    <link
                             rel="preconnect"
                             href="https://fonts.gstatic.com"
                             crossOrigin="anonymous"

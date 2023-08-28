@@ -14,8 +14,7 @@ class HeadMeta extends Document {
                     <meta property="og:description" content="With love to UI and unicorns" />
                     <meta property="og:image" content="https://harnault.dev/og-image.jpg" />
                     <meta property="og:image:type" content="image/jpg" />
-                    <meta name="twitter:image" content="https://harnault.dev/og-image.jpg" />
-                    <meta name="twitter:image:type" content="image/jpg" />
+                    <meta name="twitter:image" content="https://harnault.dev/og-image-square.png" />
                     <meta property="og:type" content="website" />
                     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
                     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />

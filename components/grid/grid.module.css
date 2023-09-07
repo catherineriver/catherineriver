@@ -22,12 +22,13 @@
 
 @media screen and (max-width: 768px) {
     .container {
-        grid-template-rows: 5fr 50px 50px 50px;
+        grid-template-rows: 3fr 50px 50px 50px;
         grid-template-areas:
         "Main"
         "Menu"
         "Menu"
         "Menu";
 
+        box-shadow: 4px 1px 0px #18191F;
     }
 }

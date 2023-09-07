@@ -14,6 +14,7 @@ body {
   color: #26192B;
   font-size: 36px;
   line-height: 50px;
+  overflow: hidden;
 }
 
 body a {

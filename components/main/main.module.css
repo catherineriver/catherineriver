@@ -35,9 +35,9 @@
     .container {
         font-size: 22px;
         line-height: 29px;
-        height: 72vh;
+        height: 60vh;
     }
     .wrapper {
-        margin: 0 10px;
+        margin: 20px 10px;
     }
 }

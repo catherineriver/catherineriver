@@ -9,7 +9,7 @@ export default function InteractiveContent() {
             Right now, I&rsquo;m working at&nbsp;<a href="https://www.doxa.team/" rel="noreferrer" target="_blank">DOXA</a>, diving deep into the Vue stack. It&rsquo;s also the place where I get better at design and UI.
         </div>
         <div className={styles.block}>
-            One oft&nbsp;myt&nbsp;proudest moments with this teamt&nbsp;is <a href="https://noncharity.doxa.team/" rel="noreferrer" target="_blank">NonCharity</a>,
+            One of&nbsp;my&nbsp;proudest moments with this team&nbsp;is <a href="https://noncharity.doxa.team/" rel="noreferrer" target="_blank">NonCharity</a>,
             which won the <a href="https://redkollegia.org/archives/text/neblagotvori-telnost-kak-sistema-prezidentskih-grantov-vynuzhdaet-rossijskoe-obshhestvo-obsluzhivat-vojnu" rel="noreferrer" target="_blank">Redkollegiya award</a>.
             It&rsquo;s an independent award established to support free professional journalism in Russia.
         </div>

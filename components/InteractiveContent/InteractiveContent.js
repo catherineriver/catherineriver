@@ -23,6 +23,9 @@ export default function InteractiveContent() {
             Freelancing lets me play around with modern technologies and learn new ones.
         </div>
         <div className={styles.block}>
+            
+        </div>
+        <div className={styles.block}>
             Before joining DOXA, I was with <TooltipHandler index={0}>«Intexsys»</TooltipHandler>, an international company. Being part of their dynamic team, we tackled some tough problems, and I learned a ton.
         </div>
       <div className={styles.block}>
@@ -37,7 +40,7 @@ export default function InteractiveContent() {
         for Uralsib Bank. This project sparked a friendly competition among users, who clicked the love/hate buttons day and night, guiding their virtual businessmen to success.
       </div>
       <div className={styles.block}>
-        Despite the closures, many of my creations live on through my GitHub.
+        Despite the closures of part these media, many of my creations live on through my GitHub.
       </div>
       <div className={styles.block}>
         <TooltipHandler index={2}>«Strelka Institute for Media, Architecture and Design»</TooltipHandler> was the place where I started my frontend developer career.

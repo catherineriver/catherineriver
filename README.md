@@ -3,7 +3,6 @@
 
 <h1 align="center">Hi 👋, I'm Catherine.</h1>
 <h3 align="center">A frontend developer by day and UI/UX designer by night.</h3>
-<p>I work daily with .vue, .tsx, .ts, .js, .html, .css</p>
 
 <p>I’m currently working at DOXA, diving deep into the Vue stack. It’s also the place where I get better at design and UI.
 One of my proudest moments with this team was <a href="https://noncharity.doxa.team/" target="_blank">NonCharity</a>, which won the <a href="https://redkollegia.org/archives/text/neblagotvori-telnost-kak-sistema-prezidentskih-grantov-vynuzhdaet-rossijskoe-obshhestvo-obsluzhivat-vojnu" target="_blank">Redkollegiya award</a>. It’s an independent award established to support free professional journalism in Russia.</p>

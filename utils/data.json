@@ -36,10 +36,6 @@
   ],
   "experience": [
     {
-        "place": "Doxa",
-        "stack": "Vue.js, Typescript, JavaScript"
-    },
-    {
         "place": "Intexsys",
         "stack": "React, Typescript, Less, Redux, JavaScript, PHP"
     },

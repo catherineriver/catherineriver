@@ -4,7 +4,7 @@
         "button": "About me",
         "index": 1,
         "title": "Hi, I'm Ekaterina.",
-        "text": "<p>I'm a front-end developer who's been diving into code for over 4 years. I'm kinda obsessed with micro animations and the latest tech stuff. It's all about making the web a cooler place, right?</p><p>I've had a blast working on media and interactive projects. There's nothing more rewarding than seeing someone enjoy something you've built in the digital world!</p><p>If you're thinking we might make a good team for a project, <a href='mailto:ekaterina.harnault@dev'>drop me a line</a!</p>"
+        "text": "<p>I'm a front-end developer who's been diving into code for over 9 years. I'm kinda obsessed with micro animations and the latest tech stuff. It's all about making the web a cooler place, right?</p><p>I've had a blast working on media and interactive projects. There's nothing more rewarding than seeing someone enjoy something you've built in the digital world!</p><p>If you're thinking we might make a good team for a project, <a href='mailto:ekaterina.harnault@dev'>drop me a line</a!</p>"
       },
     {
         "button": "Experience",
@@ -35,6 +35,10 @@
     }
   ],
   "experience": [
+    {
+        "place": "Doxa",
+        "stack": "Vue.js, Typescript, JavaScript"
+    },
     {
         "place": "Intexsys",
         "stack": "React, Typescript, Less, Redux, JavaScript, PHP"

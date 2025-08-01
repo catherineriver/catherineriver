@@ -13,7 +13,7 @@
     {
         "button": "Contacts",
         "index": 3,
-        "text":"<p>If you're in need of an expert in HTML5, CSS, JS, and someone proficient with the React/Vue/Typescript stack, then you're in the right place.</p>\n\n<p>I not only bring technical expertise but also a keen sense of aesthetics and a deep understanding of UI patterns. I have a strong passion for media-related projects, captivating UI/UX designs, and creating interactive experiences that truly resonate with users.</p>\n\n<p>Feel free to get in touch!</p>\n",
+        "text":"<p>If you're in need of an expert in HTML, CSS, JS, and someone proficient with the React/Vue/Typescript stack, then you're in the right place.</p>\n\n<p>I not only bring technical expertise but also a keen sense of aesthetics and a deep understanding of UI patterns. I have a strong passion for media-related projects, captivating UI/UX designs, and creating interactive experiences that truly resonate with users.</p>\n\n<p>Feel free to get in touch!</p>\n",
         "contacts": [
             {
                 "title": "Email me.",
